@@ -602,6 +602,10 @@ pre code {
 
 .modal-body {
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
 }
 
 .modal-img {
@@ -2290,6 +2294,8 @@ select.form-control:focus::-ms-value {
   display: block;
   width: 100%;
 }
+
+
 
 .col-form-label {
   padding-top: calc(0.65rem + 1px);
@@ -11119,6 +11125,9 @@ pre {
   position: relative;
   border-radius: 0.25rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically (if the height is set) */
   margin-bottom: 30px;
   display: block;
   display: block;
